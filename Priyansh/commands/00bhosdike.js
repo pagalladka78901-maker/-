@@ -16,7 +16,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   if(react.includes("bsdk") ||
      react.includes("bhosdike") ||
      react.includes("gandu") ||
-react.includes("madarchod")) {
+react.includes("hate")) {
     var msg = {
         body: `😡😡CHUP BHOSDIKE😡😡`,attachment: fs.createReadStream(__dirname + `/noprefix/bsdk.mp3`)
       }
