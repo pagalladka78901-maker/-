@@ -79,5 +79,5 @@ module.exports.run = async function({ api, event, args, models, Users, Threads, 
 var one = senderID, two = id;
     return makeImage({ one, two }).then(path => api.sendMessage({ body: `♡   ∩_∩  
  （„• ֊ •„)♡  
-╭─∪∪────♡──────⟡      │ ${namee} ├───────♡──────⟡                           │ ${name}\n🍓 ╰───────♡──────⟡  ${tle}`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+╭─∪∪────♡──────⟡      │ ${namee} ├───────♡──────⟡                           │ ${name}\n╰───────♡──────⟡  ${tle}`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
   }
