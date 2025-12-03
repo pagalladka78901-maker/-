@@ -1,5 +1,5 @@
 module.exports.config = {
-	name: "pair4",
+	name: "pair",
 	version: "1.0.1",
 	hasPermssion: 0,
 	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
@@ -77,5 +77,7 @@ module.exports.run = async function({ api, event, args, models, Users, Threads, 
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍🦰" : "Trần Đức Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `🍓 Congratulations ${namee} was paired with ${name}\n🍓 The Double Odds are: ${tle}`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: `♡   ∩_∩  
+ （„• ֊ •„)♡  
+╭─∪∪────♡──────⟡      │ ${namee} ├───────♡──────⟡                           │ ${name}\n🍓 ╰───────♡──────⟡  ${tle}`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
   }
