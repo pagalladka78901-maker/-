@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Ｓｈａｗｘ－ＨＩＪＡＫ　た ゜",
-    "PREFIX": "#",
+    "BOTNAME": "Basanti",
+    "PREFIX": ".",
     "ADMINBOT": [
-        "61582804331859"
+        "61584352663029"
     ],
     "NDH": [
-        "61582804331859"
+        "61584352663029"
     ],
     "DATABASE": {
         "sqlite": {
