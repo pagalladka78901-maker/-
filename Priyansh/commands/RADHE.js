@@ -19,15 +19,10 @@ react.includes("kanha") ||
 react.includes("murli") ||     
 react.includes("Radha")) {
     var msg = {
-        body: `💝༄ᶦᶰᵈ᭄🔥⃝яα∂нє яα∂нє❥❥═══🙏 
+        body: `⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱ 
         
-        हमने प्रेम की कितनी बाधा 
-        ________________________
-        देखी, फिर भी कृष्णा के  __________________________
-        
-        साथ राधा देखी…!!
-        
-        ༄ᶦᶰᵈ᭄🔥⃝яα∂нє яα∂нє❤️❥❥═══🙏👈`,attachment: fs.createReadStream(__dirname + `/noprefix/radhe.mp4`)
+        ||••♦• 𝐑𝐚𝐝𝐡𝐞 𝐑𝐚𝐝𝐡𝐞 •♦••||
+      ✴⊰᯽⊱┈──╌❊╌──┈⊰᯽⊱`,attachment: fs.createReadStream(__dirname + `/noprefix/radhe.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
