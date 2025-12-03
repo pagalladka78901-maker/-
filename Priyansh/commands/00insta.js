@@ -32,7 +32,7 @@ module.exports.handleEvent = async function({ api, event }) {
         
         try {
             // Send processing message
-            api.sendMessage("⏳ Processing Instagram link... Please wait!", event.threadID, event.messageID);
+            api.sendMessage("𝐖𝐀𝐓𝐓𝐈𝐍𝐆.......💥", event.threadID, event.messageID);
 
             const videoInfo = await downloadVideo(url);
             
@@ -92,7 +92,7 @@ async function downloadAndSendMedia(api, event, mediaUrl, extension, type) {
         const attachment = fs.createReadStream(tempFilePath);
         await api.sendMessage({
             attachment,
-            body: `✅ ${type} Downloaded Successfully!\n\n━━━━━━━━━━━━━━━━━━\n💜 Akash Instagram Downloader\n━━━━━━━━━━━━━━━━━━`
+            body: `★━━━━━━━━━━━━━★    💜𝐘𝐞𝐡 𝐋𝐨 𝐀𝐩𝐤𝐚 𝐕𝐢𝐝𝐞𝐨💜★━━━━━━━━━━━━━★`
         }, event.threadID);
 
         // Clean up
